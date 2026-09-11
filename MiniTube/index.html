@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+    Project: MiniTube (A YouTube Clone)
+    Author: Lina Şahin
+    File: index.html
+    Description: Initial setup page. Clicking the button initializes the database
+                 and redirects to the login page.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lina Şahin</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .setup-box {
+            text-align: center;
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #212529;
+            font-size: 26px;
+            margin-bottom: 24px;
+        }
+        .btn-submit {
+            background-color: #dc3545;
+            color: #ffffff;
+            border: none;
+            padding: 12px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn-submit:hover {
+            background-color: #bd2130;
+        }
+    </style>
+</head>
+<body>
+    <div class="setup-box">
+        <h1>MiniTube Core Platform Setup</h1>
+        <form action="install.php" method="GET">
+            <button type="submit" class="btn-submit">Initialize Database</button>
+        </form>
+    </div>
+</body>
+</html>
