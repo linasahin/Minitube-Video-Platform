@@ -11,7 +11,6 @@ MiniTube is a lightweight, web-based video sharing platform prototype built with
 * Channel Pages: Dedicated channel views displaying creator details and uploads (channel.php).
 * Video Player & Watch Page: Streamlined watch interface for media playback (watch.php).
 * Automated Setup & Mock Data: Built-in SQL setup scripts and sample data generators (sql.php, install.php, generate_data.php).
-* Documentation & Schemas: Includes relational diagrams, ER schemas, and action flow charts.
 
 ---
 
